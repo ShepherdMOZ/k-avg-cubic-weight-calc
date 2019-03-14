@@ -14,7 +14,8 @@ This web app is written in JavaScript, bulit with React.js and Bootstrap 4
 cd k-avg-cubic-weight-calc
 docker-compose up --build
 ```
-3. Get access to the app in your browser (Chrome 72 recommended) at
+3. The container building could last about 5 mins (depends on the network condition)
+4. Once the server container is online, get access to the app in your browser (Chrome 72 recommended) at
 ```
 http://localhost:8000
 ```
