@@ -5,7 +5,7 @@ This web app is written in JavaScript, bulit with React.js and Bootstrap 4
 
 ## Before you run this...
 - You need __Docker__ installed first to run this app.
-- Please make sure that the port 3000 and 8000 is available on your host machine, this app will occupy the two ports while it is running. 
+- Please make sure that the port 3000 and 8000 are available on your host machine, this app will occupy the two ports while it is running. 
 
 ## Setup guide
 1. Clone this repo
