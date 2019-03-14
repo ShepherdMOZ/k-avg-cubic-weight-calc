@@ -1,6 +1,6 @@
 # K-Average Cubic Weight Calculator
 
-## What is this built with?
+## What is this bulit with?
 This web app is written in JavaScript, bulit with React.js and Bootstrap 4
 
 ## Before you run this...
