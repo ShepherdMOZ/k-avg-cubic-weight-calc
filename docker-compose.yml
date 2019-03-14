@@ -1,0 +1,19 @@
+version: '3.6'
+
+services:
+  app:
+    image: k-avg-cubic-weight-calc:0.01
+    container_name: k-avg-cubic-weight-calc
+    build: .
+    ports:
+      - 8000:8000
+    depends_on:
+      - cors-proxy
+
+  cors-proxy:
+    image: imjacobclark/cors-container
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+
+
