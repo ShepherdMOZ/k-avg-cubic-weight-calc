@@ -14,8 +14,13 @@ export default class JSONReader{
     
     // Combine all relevant data from diffrent pages and calculate the avg. weight
     readPaginatedJSON(){
-        var currentUrl = this.initUrl
-        var baseUrl = 'http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com'
+        var getLocation = function(href) {
+            var l = document.createElement("a");
+            l.href = href;
+            return l;
+        };
+        var currentUrl = getLocation(this.initUrl)
+        var baseUrl = 'http://'+currentUrl.hostname
         var endPage = false;
 
         // Parse all pages JSON Data
